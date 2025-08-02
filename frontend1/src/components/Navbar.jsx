@@ -23,7 +23,7 @@ function Navbar({ user, onLogout }) {
          
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="text-3xl font-extrabold bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">
-              JobBoard
+              JobRadar
             </Link>
           </div>
 

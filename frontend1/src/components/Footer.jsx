@@ -17,9 +17,9 @@ function Footer() {
           
 
           <span className="font-bold bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">
-            JobBoard
+            JobRadar
           </span>
-          . all rights reservedd .
+          . all rights reserved.
         </motion.p>
         
       </div>
