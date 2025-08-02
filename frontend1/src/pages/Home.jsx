@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-
-
 import { fetchJobs } from '../api';
 import JobCard from '../components/JobCard';
 

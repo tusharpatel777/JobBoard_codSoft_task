@@ -4,7 +4,6 @@ const cors = require('cors');
 const path = require('path');
 require('dotenv').config();
 
-
 const authRoutes = require('./routes/authRoutes');
 const jobRoutes = require('./routes/jobRoutes');
 const applicationRoutes = require('./routes/applicationRoutes');
@@ -12,13 +11,13 @@ const applicationRoutes = require('./routes/applicationRoutes');
 const app = express();
 
 
-app.use(cors(
-  {
-  origin: '*', 
+app.use(cors({
+  origin: '*',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  credentials: true
-  }
-));
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true,
+}));
+
 app.use(express.json());
 
 
